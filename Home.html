@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Brew Bliss Coffee</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f3e7;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Full Page Background */
+    .background {
+      background-image: url('H2.jpg'); /* Replace with your own image */
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Container Box */
+    .container {
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+      padding: 40px;
+      text-align: center;
+      border-radius: 100px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 800px;
+      margin-top: -100px;
+    }
+
+    .container h1 {
+      font-size: 48px;
+      color: #924915; /* Coffee brown color */
+      margin: 0;
+    }
+
+    .container p {
+      font-size: 20px;
+      color: #333;
+      margin-top: 15px;
+    }
+
+    /* Button Style */
+    .cta-btn {
+      background-color: #6f4e37;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      margin-top: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
+    .cta-btn:hover {
+      background-color: #4b3621;
+    }
+    footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 3px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            position: relative;
+        }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+            img {
+                width: 100%;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Brew Bliss Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+    </nav>
+  </header>
+
+
+
+  <!-- Full Page Background -->
+  <div class="background">
+    <!-- Container Box -->
+    <div class="container">
+      <h1>Welcome to Brew Bliss Coffee</h1>
+      <p>Your perfect coffee experience awaits you!</p>
+      <button class="cta-btn" onclick="window.location.href='Menu.html'">Order Now</button>
+      
+
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Brew Bliss Coffee. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Menu</title>
+  <style>
+    
+
+    /* Body Styles */
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3e7;
+    color: #333;
+    background-image: url('B1.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    /* Container Styles */
+    .menu-container {
+      background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+     
+     
+    }
+    h1 {
+    text-align: center;
+    color: #f8f3ef;
+    }
+
+    h2 {
+    color: #6f4e37;
+    }
+            
+
+    
+    /* Menu Item Styles */
+    ol, ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .item-name {
+      font-weight: bold;
+    }
+
+    .item-price {
+      color: #141212;
+    }
+
+    /* Discount Styles */
+    .discount {
+      text-align: center;
+      font-style: italic;
+      color: #7a3939;
+      margin-top: 20px;
+    }
+
+    /* Footer Styles */
+    footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 3px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            position: relative;
+        }
+    /* Responsive Styles */
+    @media (max-width: 600px) {
+      .menu-container {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      li {
+        font-size: 14px;
+      }
+    }
+  </style>
+  <script>
+    // JavaScript for discount alert
+    window.onload = function() {
+      alert("Enjoy a 25% discount on your next coffee order!");
+    };
+  </script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Brew Bliss Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+    </nav>
+  </header>
+
+  <!-- Menu Page Content -->
+  <div class="menu-container">
+    <h1>Coffee Menu</h1>
+
+    <h2>Espresso</h2>
+    <ol>
+      <li>
+        <span class="item-name">Espresso</span>
+        <span class="item-price">$5.99</span>
+      </li>
+      <li>
+        <span class="item-name">Americano</span>
+        <span class="item-price">$6.99</span>
+      </li>
+      <li>
+        <span class="item-name">Café Latte</span>
+        <span class="item-price">$5.99</span>
+      </li>
+      <li>
+        <span class="item-name">Macchiato</span>
+        <span class="item-price">$8.99</span>
+      </li>
+      <li>
+        <span class="item-name">Flat White</span>
+        <span class="item-price">$5.99</span>
+      </li>
+    </ol>
+
+    <h2>Signature Coffee</h2>
+    <ul>
+      <li>
+        <span class="item-name">Cappuccino</span>
+        <span class="item-price">$9.99</span>
+      </li>
+      <li>
+        <span class="item-name">Iced Coffee</span>
+        <span class="item-price">$5.99</span>
+      </li>
+      <li>
+        <span class="item-name">Caramel Macchiato</span>
+        <span class="item-price">$6.99</span>
+      </li>
+      <li>
+        <span class="item-name">Affogato</span>
+        <span class="item-price">$5.99</span>
+      </li>
+      <li>
+        <span class="item-name">Mocha</span>
+        <span class="item-price">$8.99</span>
+      </li>
+      <li>
+        <span class="item-name">Cold Brew</span>
+        <span class="item-price">$5.99</span>
+      </li>
+      <li>
+        <span class="item-name">Nitro Coffee</span>
+        <span class="item-price">$7.99</span>
+      </li>
+      <li>
+        <span class="item-name">Iced Latte</span>
+        <span class="item-price">$9.99</span>
+      </li>
+    </ul>
+
+    <div class="discount">
+      <p>*Always Fresh*</p>
+      <p>*25% Discount*</p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Brew Bliss Coffee. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

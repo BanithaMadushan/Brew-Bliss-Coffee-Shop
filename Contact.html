@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Coffee Bliss</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f3e7;
+            color: #333;
+        }
+
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h2 {
+            color: #6f4e37;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .contact-details {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-details div {
+            flex: 1;
+        }
+
+        .contact-details div p {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .contact-details div i {
+            font-size: 40px;
+            color: #6f4e37;
+            margin-bottom: 10px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+   
+
+
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 3px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            position: relative;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .contact-details {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-details div {
+                margin-bottom: 20px;
+                padding: 0;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+            }
+
+            .contact-form button {
+                width: 100%;
+            }
+
+            .map-container iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brew Bliss Coffee</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <div>
+                <i class="fas fa-phone"></i>
+                <p><strong>Phone:</strong></p>
+                <p>+1 (123) 456-7890</p>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p><strong>Email:</strong></p>
+                <p>contact@coffeebliss.com</p>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p><strong>Address:</strong></p>
+                <p>123 Coffee Lane, Brewtown, CO 80920</p>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509172!2d-122.41941608468137!3d37.77492927975879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c2b8ef1a3%3A0x7b411dbdf934f92!2sBrew%20Bliss%20Coffee!5e0!3m2!1sen!2sus!4v1617787891301!5m2!1sen!2sus" 
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coffee Bliss. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
